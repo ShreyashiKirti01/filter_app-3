@@ -1,0 +1,45 @@
+body{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+font-family: 'Comforter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+h3{
+width: 30%;
+height: 30px;
+background-color: rgb(25, 71, 56);
+font-size: 20px;
+color: white;
+border-radius: 50px;
+padding-top: 3px;
+}
+
+button{
+background: linear-gradient(to left,#FFA17F 20px, #00223E 100%);
+width: 25%;
+height: 30px;
+font-size: 17px;
+color: white;
+border-radius: 50px;
+border-style: groove;
+border-width: 2px;
+
+}
+
+canvas{
+margin-top: 30px;
+border-style: ridge;
+animation-name: dawn;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes dawn{
+    from{box-shadow:1px 1px 38px rgb(0, 56, 74) ;}
+
+    to{box-shadow: 1px 1px 38px rgb(108, 181, 0);}
+}
